@@ -1,0 +1,49 @@
+<!-- views/resume.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Milind Pandav</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Milind Pandav</h1>
+        <p>Solution Engineer | TIBCO Advocate | Content Creator</p>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blogs</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="resume">
+        <div class="container">
+          <embed
+            src="/contents/resume.pdf"
+            type="application/pdf"
+            width="100%"
+            height="900px"
+          />
+          <!-- Alternatively, you can use an iframe -->
+          <!-- <iframe src="/contents/resume.pdf" width="100%" height="600px"></iframe> -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Milind Pandav</p>
+      </div>
+    </footer>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
